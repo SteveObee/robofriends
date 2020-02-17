@@ -33,7 +33,7 @@ export class MainPage extends Component {
             <h1>Loading...</h1>
           ) : (
             <ErrorBoundry>
-              <CardList robots={this.filteredRobots()} />;
+              <CardList robots={this.filteredRobots()} />
             </ErrorBoundry>
           )}
         </Scroll>
