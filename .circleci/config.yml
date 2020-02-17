@@ -6,7 +6,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:<version>
+      - image: circleci/node:13.8
     steps:
       - checkout
       - run: echo "npm installing"
@@ -14,7 +14,7 @@ jobs:
       - run: CI=true npm run build
   test:
     docker:
-      - image: circleci/node:<version>
+      - image: circleci/node:13.8
     steps:
       - checkout
       - run: echo "running tests"
@@ -22,7 +22,7 @@ jobs:
       - run: npm test
   hithere:
     docker:
-      - image: circleci/node:<version>
+      - image: circleci/node:13.8
     steps:
       - checkout
       - run: echo "helloooo!"
