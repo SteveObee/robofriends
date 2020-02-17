@@ -11,7 +11,6 @@ exports[`renders MainPage without crashing 1`] = `
       <CardList
         robots={Array []}
       />
-      ;
     </ErrorBoundry>
   </Scroll>
 </div>
