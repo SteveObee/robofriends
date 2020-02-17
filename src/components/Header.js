@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class Header extends Component {
   // shouldComponentUpdate(nextProps, nextState) {
@@ -6,8 +6,6 @@ class Header extends Component {
   // }
 
   render() {
-    console.log("Header");
-
     return (
       <div>
         <h1 className="f1">RoboFriends</h1>
